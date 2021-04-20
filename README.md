@@ -90,7 +90,7 @@ It allows you to run the project in the cloud, free of charge. You may try our C
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA)
 
 
-## Training
+## Training on existing Datasets
 Run the commands below to start training:
 
 ```shell script
@@ -114,6 +114,12 @@ Procrustes Aligned Mean Per Joint Position Error (PA-MPJPE) in mm.
 
 See [`doc/eval.md`](doc/eval.md) to reproduce the results in this table or 
 evaluate a pretrained model.
+
+
+# Training on Newly annotated Data.
+## Step 1:
+
+
 
 
 
