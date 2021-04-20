@@ -65,9 +65,6 @@ Refer to [`doc/demo.md`](doc/demo.md) for more details about the demo code.
 
 Sample demo output with the `--sideview` flag:
 
-<p float="left">
-  <img src="doc/assets/sample_video.gif" width="30%" />
-</p>
 
 ### FBX and glTF output (New Feature!)
 We provide a script to convert VIBE output to standalone FBX/glTF files to be used in 3D graphics tools like
