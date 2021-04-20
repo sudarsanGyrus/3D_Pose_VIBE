@@ -2,35 +2,13 @@
 [![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vibe-video-inference-for-human-body-pose-and/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=vibe-video-inference-for-human-body-pose-and)
 
 
-## Features
-
-_**V**ideo **I**nference for **B**ody Pose and Shape **E**stimation_ (VIBE) is a video pose and shape estimation method.
-It predicts the parameters of SMPL body model for each frame of an input video. Pleaser refer to our [arXiv report](https://arxiv.org/abs/1912.05656) for further details.
-
-This implementation:
-
-- has the demo and training code for VIBE implemented purely in PyTorch,
-- can work on arbitrary videos with multiple people,
-- supports both CPU and GPU inference (though GPU is way faster),
-- is fast, up-to 30 FPS on a RTX2080Ti (see [this table](doc/demo.md#runtime-performance)),
-- achieves SOTA results on 3DPW and MPI-INF-3DHP datasets,
-- includes Temporal SMPLify implementation.
-- includes the training code and detailed instruction on how to train it from scratch.
-- can create an FBX/glTF output to be used with major graphics softwares.
-
-<p float="center">
-  <img src="doc/assets/method_1.gif" width="49%" />
-  <img src="doc/assets/parkour.gif" width="49%" />
-</p>
-
-
 ## Getting Started
 VIBE has been implemented and tested on Ubuntu 18.04 with python >= 3.7. It supports both GPU and CPU inference.
 If you don't have a suitable device, try running our Colab demo. 
 
 Clone the repo:
 ```bash
-git clone https://github.com/mkocabas/VIBE.git
+git clone https://github.com/gyrusai/3D_humanPose_VIBE.git
 ```
 
 Install the requirements using `virtualenv` or `conda`:
@@ -60,6 +38,28 @@ python demo.py --vid_file sample_video.mp4 --output_folder output/ --display
 # Run on a YouTube video
 python demo.py --vid_file https://www.youtube.com/watch?v=wPZP8Bwxplo --output_folder output/ --display
 ```
+
+## Features
+
+_**V**ideo **I**nference for **B**ody Pose and Shape **E**stimation_ (VIBE) is a video pose and shape estimation method.
+It predicts the parameters of SMPL body model for each frame of an input video. Pleaser refer to our [arXiv report](https://arxiv.org/abs/1912.05656) for further details.
+
+This implementation:
+
+- has the demo and training code for VIBE implemented purely in PyTorch,
+- can work on arbitrary videos with multiple people,
+- supports both CPU and GPU inference (though GPU is way faster),
+- is fast, up-to 30 FPS on a RTX2080Ti (see [this table](doc/demo.md#runtime-performance)),
+- achieves SOTA results on 3DPW and MPI-INF-3DHP datasets,
+- includes Temporal SMPLify implementation.
+- includes the training code and detailed instruction on how to train it from scratch.
+- can create an FBX/glTF output to be used with major graphics softwares.
+
+<p float="center">
+  <img src="doc/assets/method_1.gif" width="49%" />
+  <img src="doc/assets/parkour.gif" width="49%" />
+</p>
+
 
 Refer to [`doc/demo.md`](doc/demo.md) for more details about the demo code.
 
