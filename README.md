@@ -23,11 +23,6 @@ This implementation:
   <img src="doc/assets/parkour.gif" width="49%" />
 </p>
 
-## Updates
-
-- 05/01/2021: Windows installation tutorial is added thanks to amazing [@carlosedubarreto](https://github.com/carlosedubarreto)
-- 06/10/2020: Support OneEuroFilter smoothing.
-- 14/09/2020: FBX/glTF conversion script is released.
 
 ## Getting Started
 VIBE has been implemented and tested on Ubuntu 18.04 with python >= 3.7. It supports both GPU and CPU inference.
@@ -95,13 +90,6 @@ python lib/utils/fbx_output.py \
     --person_id <tracklet id from VIBE output>
 
 ``` 
-### Windows Installation Tutorial
-
-You can follow the instructions provided by [@carlosedubarreto](https://github.com/carlosedubarreto) to install and run VIBE on a Windows machine:
-
-- VIBE windows installation tutorial: https://youtu.be/3qhs5IRJ1LI
-- FBX conversion: https://youtu.be/w1biKeiQThY
-- Helper github repo: https://github.com/carlosedubarreto/vibe_win_install
 
 ## Google Colab
 If you do not have a suitable environment to run this project then you could give Google Colab a try. 
@@ -134,24 +122,7 @@ Procrustes Aligned Mean Per Joint Position Error (PA-MPJPE) in mm.
 See [`doc/eval.md`](doc/eval.md) to reproduce the results in this table or 
 evaluate a pretrained model.
 
-**Correction**: Due to a mistake in dataset preprocessing, VIBE trained with 3DPW results in Table 1 of the original paper are not correct.
-Besides, even though training with 3DPW guarantees better quantitative performance, it does not give good 
-qualitative results. ArXiv version will be updated with the corrected results. 
 
-## Citation
-
-```bibtex
-@inproceedings{kocabas2019vibe,
-  title={VIBE: Video Inference for Human Body Pose and Shape Estimation},
-  author={Kocabas, Muhammed and Athanasiou, Nikos and Black, Michael J.},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  month = {June},
-  year = {2020}
-}
-```
-
-## License
-This code is available for **non-commercial scientific research purposes** as defined in the [LICENSE file](LICENSE). By downloading and using this code you agree to the terms in the [LICENSE](LICENSE). Third-party datasets and software are subject to their respective licenses.
 
 
 ## References
