@@ -1,0 +1,12 @@
+.idea/
+/data/
+__pycache__/
+vibe-env/
+/output/
+/doc/
+/test_video/
+/_git_final/
+/mnt/
+/inputVideo/
+*.mp4
+results
