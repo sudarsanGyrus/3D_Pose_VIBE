@@ -55,10 +55,6 @@ This implementation:
 - includes the training code and detailed instruction on how to train it from scratch.
 - can create an FBX/glTF output to be used with major graphics softwares.
 
-<p float="center">
-  <img src="doc/assets/method_1.gif" width="49%" />
-  <img src="doc/assets/parkour.gif" width="49%" />
-</p>
 
 
 Refer to [`doc/demo.md`](doc/demo.md) for more details about the demo code.
