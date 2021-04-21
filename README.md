@@ -117,10 +117,13 @@ evaluate a pretrained model.
 
 
 # Training on Newly annotated Data.
-## Annotaion Tool - EvoSkeleton Interactive annotation tool
-### Step 1:  Annotate 2d joint keypoints.
-### Step 2:  3D Keypoints Estimation : Manually annotating 3D skeleton from scratch is time-consuming, thus we use a tool to obtain an initial 3D pose estimation given 2D annotation. Here we use SMPLify to estimate coarse 3D skeleton. You need to set up a Python 2.7 environment.
-### Step 3: 3D Skeleton Interactive Annotation : After you have obtained fitted parameters for your dataset, you can modify the 3D parameters interactively with this tool.
+### Annotaion Tool - EvoSkeleton Interactive annotation tool
+### Step 1:
+Annotate 2d joint keypoints.
+### Step 2:  
+3D Keypoints Estimation : Manually annotating 3D skeleton from scratch is time-consuming, thus we use a tool to obtain an initial 3D pose estimation given 2D annotation. Here we use SMPLify to estimate coarse 3D skeleton. You need to set up a Python 2.7 environment.
+### Step 3: 
+3D Skeleton Interactive Annotation : After you have obtained fitted parameters for your dataset, you can modify the 3D parameters interactively with this tool.
 
 
 
